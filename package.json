@@ -1,0 +1,34 @@
+{
+  "name": "bandeja-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --max-warnings=0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "qrcode.react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "tailwindcss": "^4.3.3",
+    "typescript": "latest",
+    "typescript-eslint": "^8.71.2"
+  }
+}
